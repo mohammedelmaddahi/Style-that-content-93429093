@@ -1,0 +1,29 @@
+.navbar {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+background-color: orange;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgb(255, 215, 166);
+}
+
+.content h1+p {
+	width: 100%;
+	text-align: center;
+
+}
+
+.content h1 {
+	text-align: center;
+	width: 100%;
+}
+
+.news {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
